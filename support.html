@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="mainline-generated" content="2026-04-19T21:54:11Z">
+    <meta name="description" content="Get help with Xura: granting microphone and speech permissions, setting up integrations, understanding the inbox, and managing your Pro subscription.">
+    <title>Support — Xura - Zero-Friction Thoughts</title>
+    
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="layout">
+        <header class="site" style="grid-column: 1 / -1;">
+            
+            <div class="name">Xura - Zero-Friction Thoughts</div>
+        </header>
+        <nav class="left">
+            <ul>
+                <li><a href="./">Xura - Zero-Friction Thoughts</a></li>
+                        <li><a href="./features.html">Features</a></li>
+                        <li><a href="./support.html" class="active">Support</a></li>
+                        <li><a href="./privacy.html">Privacy Policy</a></li>
+            </ul>
+        </nav>
+        <main class="page">
+            <h1>Support</h1>
+            
+<p>Find answers to common questions below. If something is not covered here, see <a href="#contact">Get further help</a> at the bottom of this page.</p>
+
+<nav aria-label="On this page">
+  <ul>
+    <li><a href="#permissions">Granting microphone and speech permissions</a></li>
+    <li><a href="#integrations">Setting up integrations</a></li>
+    <li><a href="#inbox">Understanding the inbox</a></li>
+    <li><a href="#pro">Managing your Pro subscription</a></li>
+    <li><a href="#contact">Get further help</a></li>
+  </ul>
+</nav>
+
+<h2 id="permissions">Granting microphone and speech permissions</h2>
+
+<p>Xura needs two permissions to work: microphone access to hear you speak, and speech recognition access to transcribe what you say. Both are requested during the first-time setup flow. If you skipped a prompt or tapped "Don't Allow", you can grant them manually at any time.</p>
+
+<h3>How to grant permissions manually</h3>
+<ol>
+  <li>Open the <strong>Settings</strong> app on your iPhone.</li>
+  <li>Scroll down and tap <strong>Xura</strong>.</li>
+  <li>Turn on <strong>Microphone</strong>.</li>
+  <li>Turn on <strong>Speech Recognition</strong>.</li>
+</ol>
+
+<p>Both permissions must be on for capture to work. If either is off, Xura will show an error state when you try to record.</p>
+
+<h3>Why Xura needs these permissions</h3>
+<p>Xura uses your microphone to record your voice and on-device speech recognition to convert it to text. Your audio and transcript never leave your device. See the <a href="./privacy.html">Privacy Policy</a> for full details.</p>
+
+<h3>Troubleshooting</h3>
+<ul>
+  <li><strong>The app opens but does not start recording.</strong> Check that both Microphone and Speech Recognition are enabled in Settings as described above.</li>
+  <li><strong>The waveform is flat and nothing is transcribed.</strong> Your microphone permission may be set to "Ask Next Time." Tap it in Settings and select "Allow."</li>
+  <li><strong>On-device speech recognition is not available.</strong> Xura requires on-device recognition to be available on your device. Make sure your iPhone is running iOS 26 or later and that the selected language pack is downloaded. Go to Settings &gt; General &gt; Language &amp; Region to verify your device language.</li>
+</ul>
+
+<h2 id="integrations">Setting up integrations</h2>
+
+<p>Integrations are the destinations where Xura sends your thoughts. You choose one preferred integration per category: tasks, notes, and messages. Xura routes each captured thought to the right category automatically.</p>
+
+<h3>Free integrations (no subscription required)</h3>
+<ul>
+  <li><strong>Apple Reminders</strong> (tasks) - works immediately, no extra setup needed.</li>
+  <li><strong>Apple Notes</strong> (notes) - works immediately, no extra setup needed.</li>
+  <li><strong>Apple Messages</strong> (messaging) - works immediately. Because iOS requires Messages to be open on screen to send, Xura will prompt you to tap through to the compose sheet rather than sending in the background.</li>
+</ul>
+
+<h3>Pro integrations</h3>
+<p>The following integrations require a <a href="#pro">Xura Pro</a> subscription.</p>
+<ul>
+  <li><strong>Things 3</strong> (tasks) - requires Things 3 to be installed on your iPhone. Xura sends tasks directly via the Things URL scheme.</li>
+  <li><strong>Obsidian</strong> (notes) - requires Obsidian to be installed. You also need to enter your vault name in Settings before Xura can create notes there.</li>
+  <li><strong>Todoist</strong> (tasks) - requires you to connect your Todoist account. Go to Settings, tap Todoist, and follow the sign-in prompt. Xura uses a secure OAuth flow and stores your token only on your device.</li>
+</ul>
+
+<h3>Changing your preferred integration</h3>
+<ol>
+  <li>Open Xura and go to <strong>Settings</strong>.</li>
+  <li>Tap the integration category you want to change (Tasks, Notes, or Messages).</li>
+  <li>Select your preferred destination from the list.</li>
+</ol>
+
+<p>You can also change the destination for a specific captured thought at routing time. When the notification appears, tap <strong>Change</strong> to pick a different integration for that thought only.</p>
+
+<h3>Troubleshooting integrations</h3>
+<ul>
+  <li><strong>Things 3 or Obsidian is not receiving thoughts.</strong> Make sure the app is installed. If it was recently installed, try capturing a new thought to test the connection.</li>
+  <li><strong>Obsidian shows an error.</strong> Check that the vault name in Xura Settings exactly matches the vault name in Obsidian, including capitalisation.</li>
+  <li><strong>Todoist stopped working after a while.</strong> Your sign-in session may have expired. Go to Settings, tap Todoist, and sign in again.</li>
+  <li><strong>A Pro integration shows a lock icon.</strong> That integration requires Xura Pro. See <a href="#pro">Managing your Pro subscription</a> below.</li>
+</ul>
+
+<h2 id="inbox">Understanding the inbox</h2>
+
+<p>Every thought you capture is saved to your inbox before a routing notification is sent. Nothing is ever lost, even if you dismiss a notification or your phone is on silent.</p>
+
+<h3>What ends up in the inbox</h3>
+<ul>
+  <li>Thoughts you explicitly saved by tapping <strong>Save to Inbox</strong> on the notification.</li>
+  <li>Thoughts whose notification you dismissed without acting on.</li>
+  <li>Any thought that could not be routed automatically.</li>
+</ul>
+
+<h3>How to access the inbox</h3>
+<p>Open Xura and go to <strong>Settings &gt; Inbox</strong>. You will see a list of saved thoughts with their suggested destinations. Tap any entry to route it to the suggested integration, or change the destination first.</p>
+
+<h3>The inbox is a safety net, not a to-do list</h3>
+<p>Xura is designed so that most thoughts are routed immediately from the notification, without you ever opening the app. The inbox exists to make sure nothing slips through. It is not a primary workspace. See <a href="./features.html">Features</a> for more on how routing works.</p>
+
+<h2 id="pro">Managing your Pro subscription</h2>
+
+<p>Xura Pro unlocks Things 3, Obsidian, and Todoist integrations, and removes the monthly routing limit that applies to the free tier.</p>
+
+<h3>Subscribing to Pro</h3>
+<p>Tap any Pro-gated integration in Settings. A paywall sheet will appear showing the available plans.</p>
+<ul>
+  <li><strong>Monthly</strong> - £1.00 per month.</li>
+  <li><strong>Annual</strong> - £10.00 per year (equivalent to about two months free).</li>
+</ul>
+<p>Tap <strong>Start Pro</strong> and confirm with Face ID or your Apple ID password. Your Pro integrations unlock immediately after purchase.</p>
+
+<h3>Free tier routing limit</h3>
+<p>On the free tier, Xura routes up to 25 thoughts per month to external integrations. When you reach this limit, the notification will offer you the option to upgrade or save the thought to your inbox instead. Your inbox always has unlimited capacity.</p>
+
+<h3>Restoring a previous purchase</h3>
+<p>If you reinstall Xura or switch to a new iPhone, your subscription is not lost. Open the paywall by tapping any Pro integration, then tap <strong>Restore Purchases</strong>. Xura will check your App Store account and re-activate Pro if you have an active subscription.</p>
+
+<h3>Cancelling Pro</h3>
+<p>Xura Pro is billed through the App Store. To cancel, go to <strong>Settings</strong> (the iOS Settings app) &gt; <strong>Apple Account</strong> &gt; <strong>Subscriptions</strong>, find Xura, and tap <strong>Cancel Subscription</strong>. Your Pro access continues until the end of the current billing period.</p>
+
+<h2 id="contact">Get further help</h2>
+
+<p>If you have a question or run into a problem not covered above, you can reach the Xura support team by email.</p>
+
+<p><strong>Email:</strong> <a href="mailto:betchers@me.com">betchers@me.com</a></p>
+
+<p>Please include your iPhone model, iOS version, and a short description of what happened. Screenshots are always helpful if you can share them.</p>
+
+            <footer class="site">Generated by Mainline.</footer>
+        </main>
+    </div>
+</body>
+</html>
