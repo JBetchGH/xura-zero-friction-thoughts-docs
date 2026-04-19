@@ -1,0 +1,40 @@
+{
+  "pages" : [
+    {
+      "intent" : "Landing page that communicates the core value proposition: capture a thought in under 3 seconds, let Xura classify and route it, all on-device with no cloud processing.",
+      "kind" : "content",
+      "slug" : "index",
+      "sourceFileRefs" : [
+        "docs\/xura-trd-v1.2.md"
+      ],
+      "title" : "Xura - Zero-Friction Thoughts"
+    },
+    {
+      "intent" : "Explain the key capabilities of Xura to prospective users: instant voice capture, on-device transcription and classification, smart routing via notifications, supported integrations (free and Pro), the inbox fallback, widget and Action Button support, and the Pro subscription.",
+      "kind" : "content",
+      "slug" : "features",
+      "sourceFileRefs" : [
+        "docs\/xura-trd-v1.2.md"
+      ],
+      "title" : "Features"
+    },
+    {
+      "intent" : "Help users get started and troubleshoot common issues: granting microphone and speech permissions, setting up integrations, understanding the inbox, managing the Pro subscription, and where to get further help.",
+      "kind" : "content",
+      "slug" : "support",
+      "sourceFileRefs" : [
+        "docs\/xura-trd-v1.2.md"
+      ],
+      "title" : "Support"
+    },
+    {
+      "intent" : "State clearly that all transcription and classification is on-device, no audio or transcript data is sent to any server, what data is stored locally via SwiftData, and the conditions under which a thought leaves the device (only on explicit user action to an integration).",
+      "kind" : "privacy",
+      "slug" : "privacy",
+      "sourceFileRefs" : [
+        "docs\/xura-trd-v1.2.md"
+      ],
+      "title" : "Privacy Policy"
+    }
+  ]
+}
